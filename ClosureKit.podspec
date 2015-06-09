@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://twitter.com/fz'
   s.authors = { 'Martin Conte Mac Donell' => 'reflejo@gmail.com' }
   s.source = { :git => 'https://github.com/Reflejo/ClosureKit.git' }
+  s.frameworks = 'UIKit', 'QuartzCore'
 
   s.ios.deployment_target = '8.0'
 
